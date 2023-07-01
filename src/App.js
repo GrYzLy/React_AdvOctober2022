@@ -4,6 +4,7 @@ import HelloWorldArrow from "./HelloWorld/HelloWorldArrow";
 import HelloWorldClass from "./HelloWorld/HelloWorldClass";
 import CounterClass from "./Counter/CounterClass";
 import LoginForm from "./LoginForm/LoginForm";
+import SecretMessage from "./SecretMessage/SecretMessage";
 function App() {
   
   return (
@@ -21,7 +22,9 @@ function App() {
 {/*
       <CounterClass /> */}
 
-      <LoginForm />
+      {/* <LoginForm /> */}
+
+      <SecretMessage />
     </div>
   );
 }
