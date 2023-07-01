@@ -3,6 +3,7 @@ import GreetingArrow from "./Greeting/GreetingArrow";
 import HelloWorldArrow from "./HelloWorld/HelloWorldArrow";
 import HelloWorldClass from "./HelloWorld/HelloWorldClass";
 import CounterClass from "./Counter/CounterClass";
+import LoginForm from "./LoginForm/LoginForm";
 function App() {
   
   return (
@@ -17,8 +18,10 @@ function App() {
 
       {/* <GreetingArrow name="Bartosz" style={{"color" : "blue"}}/>
       <GreetingArrow name="Kuba" /> */}
+{/*
+      <CounterClass /> */}
 
-      <CounterClass />
+      <LoginForm />
     </div>
   );
 }
