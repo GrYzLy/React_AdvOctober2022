@@ -9,6 +9,9 @@ import Lifecycle from "./Lifecycle/Lifecycle";
 import Quiz from "./Quiz/Quiz";
 import RouterJS from "./Router/RouterJS";
 import RouterReact from "./Router/RouterReact";
+import FetchApi from "./FetchApi/FetchApi";
+import CounterHook from "./Counter/CounterHook";
+import FetchApiHook from "./FetchApi/FetchApiHook";
 function App() {
   
   return (
@@ -32,7 +35,10 @@ function App() {
       {/* <Lifecycle /> */}
       {/* <Quiz /> */}
       {/* <RouterJS /> */}
-      <RouterReact />
+      {/* <RouterReact /> */}
+      {/* <FetchApi /> */}
+      {/* <CounterHook /> */}
+      <FetchApiHook />
     </div>
   );
 }
