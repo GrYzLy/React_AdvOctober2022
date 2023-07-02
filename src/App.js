@@ -27,8 +27,8 @@ function App() {
       {/* <LoginForm /> */}
 
       {/* <SecretMessage /> */}
-      <Lifecycle />
-      {/* <Quiz /> */}
+      {/* <Lifecycle /> */}
+      <Quiz />
     </div>
   );
 }
