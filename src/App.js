@@ -5,6 +5,7 @@ import HelloWorldClass from "./HelloWorld/HelloWorldClass";
 import CounterClass from "./Counter/CounterClass";
 import LoginForm from "./LoginForm/LoginForm";
 import SecretMessage from "./SecretMessage/SecretMessage";
+import Lifecycle from "./Lifecycle/Lifecycle";
 function App() {
   
   return (
@@ -24,7 +25,8 @@ function App() {
 
       {/* <LoginForm /> */}
 
-      <SecretMessage />
+      {/* <SecretMessage /> */}
+      <Lifecycle />
     </div>
   );
 }
