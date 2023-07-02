@@ -9,7 +9,7 @@ const RouterReact = () => (
   <Router>
     <Routes>
       <Route path="/" element={<Homepage />} />
-      <Route path="/about/" element={<About />} />
+      <Route path="/about/*" element={<About />} />
       <Route path="/search/" element={<Search />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
