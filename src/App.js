@@ -7,6 +7,8 @@ import LoginForm from "./LoginForm/LoginForm";
 import SecretMessage from "./SecretMessage/SecretMessage";
 import Lifecycle from "./Lifecycle/Lifecycle";
 import Quiz from "./Quiz/Quiz";
+import RouterJS from "./Router/RouterJS";
+import RouterReact from "./Router/RouterReact";
 function App() {
   
   return (
@@ -28,7 +30,9 @@ function App() {
 
       {/* <SecretMessage /> */}
       {/* <Lifecycle /> */}
-      <Quiz />
+      {/* <Quiz /> */}
+      {/* <RouterJS /> */}
+      <RouterReact />
     </div>
   );
 }
