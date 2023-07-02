@@ -83,7 +83,14 @@ render() {
             <h1>Quiz!</h1>
             {this.displayQuestion(0)}
             {this.displayQuestion(1)}
-            </div>
+
+            {/* {this.state.questions.map((question,index) => <Question question={question} index={index} key={index} 
+            action={this.test} playerScore={() => this.updatePlayerScore()}/>)} */}
+            
+
+                      
+             {/* {this.state.questions.map((question,index) => this.displayQuestion(index))} */}
+        </div>
     )
 }
 }
