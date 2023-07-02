@@ -6,6 +6,7 @@ import CounterClass from "./Counter/CounterClass";
 import LoginForm from "./LoginForm/LoginForm";
 import SecretMessage from "./SecretMessage/SecretMessage";
 import Lifecycle from "./Lifecycle/Lifecycle";
+import Quiz from "./Quiz/Quiz";
 function App() {
   
   return (
@@ -27,6 +28,7 @@ function App() {
 
       {/* <SecretMessage /> */}
       <Lifecycle />
+      {/* <Quiz /> */}
     </div>
   );
 }
